@@ -135,8 +135,74 @@ a.btn-dark {
     margin-left: 96px;
 }
 
+main {
+    width: 1109px;
+    margin: 0 auto;
+    background: #172339;
+    border-radius: 15px;
+    position: absolute;
+    height: 545px;
+    left: 167px;
+    top: 972px;
+}
 .hero-section-2 {
-    display: none;
+    display: flex;
+    align-items: center;
+    height: 545px;
+    justify-content: space-between;
+}
+
+.hero-section-2 .left-2 {
+    align-self: flex-end;
+}
+
+.hero-section-2 .left-2 img {
+    vertical-align: middle;
+    width: 359.81px;
+    height: 589.56px;
+}
+
+.hero-section-2 .right-2 {
+    align-items: center;
+    margin-left: 152.7px;
+    width: 350px;
+    height: 369px;
+}
+
+.hero-section-2 h2 {
+    height: 56px;
+    width: 299px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #FAF8F6;
+}
+
+.hero-section-2 p.quote {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    margin-bottom: 40px;
+}
+
+.hero-section-2 h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+}
+
+.hero-section-2 p.sub-heading-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
 }
 
 .footer-info {
