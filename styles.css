@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: relative;
     width: 1110px;
     margin-top: 62.58px;
 }
@@ -56,15 +56,89 @@ a.btn-dark {
     border-radius: 6px;
     font-size: 18px;
     font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
     color: #FAF8F6;
+    display: inline-block;
+    margin-top: 52px;
+    
 }
 
-.hero-section {
+.hero-section-1 {
     display: flex;
     align-items: center;
     height: 100vh;
+    justify-content: space-between;
 }
 
-.hero-section .right {
-    align-self:center;
+.hero-section-1 h1 {
+    font-size: 72px;
+    color: #172339;
+    line-height: 78px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    position: absolute;
+    width: 635px;
+    height: 156px;
+    left: 166px;
+    top: 276px;
+    margin-bottom: 40px;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+.hero-section-1 p.sub-heading {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #49566D;
+    position: absolute;
+    width: 350px;
+    height: 96px;
+    left: 166px;
+    top: 472px;
+    margin-top: 40px;
+}
+
+.hero-section-1 .button {
+    position: absolute;
+    width: 256px;
+    height: 61px;
+    left: 166.5px;
+    top: 610px;
+}
+
+.hero-section-1 .left {
+    z-index: 9;
+}
+
+.hero-section-1 .middle {
+    align-self: none;
+}
+
+.hero-section-1 .middle img {
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    left: 640px;
+    top: 173px;
+}
+
+.hero-section-1 .right {
+    align-self: flex-end;
+}
+
+.hero-section-1 .right img {
+    width: 190px;
+    margin-left: 96px;
+}
+
+.hero-section-2 {
+    display: none;
+}
+
+.footer-info {
+    display: none;
 }
