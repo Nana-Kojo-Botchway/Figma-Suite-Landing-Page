@@ -37,16 +37,17 @@ body {
     text-decoration: none;
 }
 
-.nav-container .menu-items a:hover {
-    transform: perspective(-2px);
-}
-
 a.btn-light {
     font-size: 16px;
     font-weight: 700;
     padding: 12px 24.5px 12px 23.5px;
     border: 1px solid #172339;
     border-radius: 6px;
+
+}
+a.btn-light:hover {
+    background-color: #172339;
+    color: #FAF8F6;
 }
 
 a.btn-dark {
@@ -61,7 +62,11 @@ a.btn-dark {
     color: #FAF8F6;
     display: inline-block;
     margin-top: 52px;
-    
+}
+
+a.btn-dark:hover {
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    color: #FAF8F6;
 }
 
 .hero-section-1 {
@@ -124,15 +129,17 @@ a.btn-dark {
     height: 600px;
     left: 640px;
     top: 173px;
+    margin-right: 450px;
 }
 
 .hero-section-1 .right {
-    align-self: flex-end;
+    align-self: center;
 }
 
 .hero-section-1 .right img {
     width: 190px;
     margin-left: 96px;
+    margin-top: 173px;
 }
 
 main {
@@ -144,7 +151,9 @@ main {
     height: 545px;
     left: 167px;
     top: 972px;
+    z-index: 1;
 }
+
 .hero-section-2 {
     display: flex;
     align-items: center;
@@ -160,10 +169,11 @@ main {
     vertical-align: middle;
     width: 359.81px;
     height: 589.56px;
+    margin-left: 113.49px;
 }
 
 .hero-section-2 .right-2 {
-    align-items: center;
+    margin-right: 133px;
     margin-left: 152.7px;
     width: 350px;
     height: 369px;
@@ -205,6 +215,59 @@ main {
     color: #F3EDE7;
 }
 
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 464px;
+    left: 0px;
+    top: 1252px;
+    background: #F3EDE7;
+}
+
 .footer-info {
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1109px;
+    height: 32px;
+    left: 167px;
+    top: 360px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+    position: absolute;
+    height: 32px;
+    left: 44.27%;
+    right: 44.45%;
+    top: calc(50% - 32px/2);
+}
+
+#facebook {
+    position: absolute;
+    left: 88.64%;
+    right: 9.56%;
+    top: 18.75%;
+    bottom: 18.75%;
+}
+
+#twitter {
+    position: absolute;
+    left: 93.87%;
+    right: 4.33%;
+    top: 25.77%;
+    bottom: 23.43%;
+}
+
+#instagram {
+    position: absolute;
+    left: 98.2%;
+    right: 0%;
+    top: 18.75%;
+    bottom: 18.75%;
 }
