@@ -19,9 +19,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
     position: relative;
     width: 1110px;
-    margin-top: 62.58px;
+    
 }
 
 .nav-container .right {
@@ -61,7 +62,7 @@ a.btn-dark {
     letter-spacing: -0.18px;
     color: #FAF8F6;
     display: inline-block;
-    margin-top: 52px;
+    margin-top: 42px;
 }
 
 a.btn-dark:hover {
@@ -82,11 +83,7 @@ a.btn-dark:hover {
     line-height: 78px;
     letter-spacing: -1px;
     font-weight: 400;
-    position: absolute;
     width: 635px;
-    height: 156px;
-    left: 166px;
-    top: 276px;
     margin-bottom: 40px;
 }
 
@@ -99,47 +96,89 @@ a.btn-dark:hover {
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #49566D;
-    position: absolute;
     width: 350px;
-    height: 96px;
-    left: 166px;
-    top: 472px;
-    margin-top: 40px;
-}
-
-.hero-section-1 .button {
-    position: absolute;
-    width: 256px;
-    height: 61px;
-    left: 166.5px;
-    top: 610px;
 }
 
 .hero-section-1 .left {
     z-index: 9;
 }
 
-.hero-section-1 .middle {
-    align-self: none;
-}
-
 .hero-section-1 .middle img {
     position: absolute;
     width: 350px;
     height: 600px;
-    left: 640px;
-    top: 173px;
-    margin-right: 450px;
+    left: 601px;
+    top: 140px;
 }
 
 .hero-section-1 .right {
-    align-self: center;
+    padding-left: 96px;
 }
 
-.hero-section-1 .right img {
+.hero-section-1 .right .top {
     width: 190px;
-    margin-left: 96px;
-    margin-top: 173px;
+    left: 1086px;
+    top: 279px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #172339;
+}
+
+.hero-section-1 .right .bottom {
+    width: 190px;
+    left: 1086px;
+    top: 336px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.hero-section-1 .right .top-1 {
+    width: 190px;
+    left: 1086px;
+    top: 425px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #172339;
+}
+
+.hero-section-1 .right .bottom-1 {
+    width: 190px;
+    left: 1086px;
+    top: 482px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.hero-section-1 .right .top-2 {
+    width: 190px;
+    left: 1086px;
+    top: 571px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #172339;
+}
+
+.hero-section-1 .right .bottom-2{
+    width: 190px;
+    left: 1086px;
+    top: 628px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #49566D;
 }
 
 main {
