@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 body {
@@ -111,13 +112,13 @@ a.btn-dark:hover {
     top: 140px;
 }
 
-.hero-section-1 .right {
-    padding-left: 96px;
+label {
+position: absolute;
 }
 
 .hero-section-1 .right .top {
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 279px;
     font-weight: 700;
     font-size: 48px;
@@ -128,7 +129,7 @@ a.btn-dark:hover {
 
 .hero-section-1 .right .bottom {
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 336px;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +140,7 @@ a.btn-dark:hover {
 
 .hero-section-1 .right .top-1 {
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 425px;
     font-weight: 700;
     font-size: 48px;
@@ -150,7 +151,7 @@ a.btn-dark:hover {
 
 .hero-section-1 .right .bottom-1 {
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 482px;
     font-weight: 400;
     font-size: 16px;
@@ -161,7 +162,7 @@ a.btn-dark:hover {
 
 .hero-section-1 .right .top-2 {
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 571px;
     font-weight: 700;
     font-size: 48px;
@@ -172,7 +173,7 @@ a.btn-dark:hover {
 
 .hero-section-1 .right .bottom-2{
     width: 190px;
-    left: 1086px;
+    left: 1046px;
     top: 628px;
     font-weight: 400;
     font-size: 16px;
@@ -254,7 +255,7 @@ main {
     color: #F3EDE7;
 }
 
-footer {
+section {
     position: absolute;
     width: 1440px;
     height: 464px;
@@ -273,18 +274,13 @@ footer {
     top: 360px;
 }
 
-label {
+footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
-    text-align: center;
+    padding-right: 68px;
     letter-spacing: 0.0833333px;
     color: #49566D;
-    position: absolute;
-    height: 32px;
-    left: 44.27%;
-    right: 44.45%;
-    top: calc(50% - 32px/2);
 }
 
 #facebook {
@@ -295,6 +291,12 @@ label {
     bottom: 18.75%;
 }
 
+#facebook:hover {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 #twitter {
     position: absolute;
     left: 93.87%;
@@ -303,10 +305,22 @@ label {
     bottom: 23.43%;
 }
 
+#twitter:hover {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 #instagram {
     position: absolute;
     left: 98.2%;
     right: 0%;
     top: 18.75%;
     bottom: 18.75%;
+}
+
+#instagram:hover {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    cursor: pointer;
 }
