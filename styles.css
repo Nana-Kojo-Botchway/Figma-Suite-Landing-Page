@@ -21,8 +21,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    position: relative;
-    width: 1110px;
 }
 
 .nav-container .right {
@@ -121,6 +119,7 @@ a.btn-dark:hover {
 
 label {
 position: absolute;
+margin-top: -38px;
 }
 
 .hero-section-1 .right .top {
@@ -350,4 +349,99 @@ footer {
     mix-blend-mode: normal;
     opacity: 0.5;
     cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .nav-container {
+        width: 90vw;
+    }
+
+    .hero-section-1 {
+        flex-direction: column;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 38px;
+        line-height: 44px; 
+        width: 343px;
+        margin-top: 83.32px;
+    }
+    
+    .hero-section-1 p.sub-heading {
+        width: 343px;
+        font-size: 16px;
+        padding-right: 16px;
+    }
+    
+    .hero-section-1 .middle img {
+        height: 240px;
+        width: 343px;
+        left: 16px;
+        top: 559px
+    }
+    
+    .hero-section-1 .line img {
+        width: 151.47px;
+        height: 19px;
+        left: 215px;
+        top: 155px;
+    }
+
+    .hero-section-1 .right .top {
+        text-align: center;
+        width: 343px;
+        height: 56px;
+        left: 15px;
+        top: 920px;
+    }
+    
+    .hero-section-1 .right .bottom {
+        text-align: center;
+        width: 343px;
+        height: 26px;
+        left: 15px;
+        top: 977px;
+    }
+
+    .hero-section-1 .right .top-1 {
+        text-align: center;
+        width: 343px;
+        height: 56px;
+        left: 16px;
+        top: 1035px;
+    }
+    
+    .hero-section-1 .right .bottom-1 {
+        text-align: center;
+        width: 343px;
+        height: 26px;
+        left: 16px;
+        top: 1092px;
+    }
+    
+    .hero-section-1 .right .top-2 {
+        text-align: center;
+        width: 343px;
+        height: 56px;
+        left: 15px;
+        top: 1149px;
+    }
+    
+    .hero-section-1 .right .bottom-2{
+        text-align: center;
+        width: 343px;
+        height: 26px;
+        left: 15px;
+        top: 1206px;
+    }
+
+    .hero-section-2 {
+        display: none;
+    }
 }
