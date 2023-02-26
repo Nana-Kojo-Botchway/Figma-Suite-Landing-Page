@@ -122,8 +122,8 @@ a.btn-dark:hover {
 }
 
 label {
-display: flex;
-height: 10svh;
+    display: flex;
+    height: 10svh;
 }
 
 .hero-section-1 .right .top {
