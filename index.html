@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <title>Frontend Mentor | Suite landing page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +16,7 @@
 <div class="container">
     <div class="nav-container">
         <div class="left">
-            <img src="Images/suite-icon.svg" alt="suite icon">
+            <img src="assets/logo.svg" alt="suite icon">
         </div>
         
         <div class="right">
@@ -38,36 +37,36 @@
     </div>
 
     <div class="middle">
-        <img src="Images/iphone-gradient.png" alt="iphone with gradient image">
+        <img src="assets/image-hero-portrait.png" alt="iphone-gradient" />
     </div>
 
     <div class="line">
-        <img src="Images/pattern-curved-line-icon.svg" alt="A curved line">
+        <img src="assets/pattern-curved-line-1.svg" alt="A curved line">
     </div>
 
     <div class="right">    
-        <label class="top">2K+</label>
-        <label class="bottom">COMPANIES</label>
+        <label class="top a">2K+</label>
+        <label class="bottom b">COMPANIES</label>
         
-        <label class="top-1">8</label>
-        <label class="bottom-1">LANGUAGES</label>
+        <label class="top c">8</label>
+        <label class="bottom d">LANGUAGES</label>
         
-        <label class="top-2">1.2M</label>
-        <label class="bottom-2">LEADS</label>
+        <label class="top e">1.2M</label>
+        <label class="bottom f">LEADS</label>
     </div>
 </header>
 
 <main class="hero-section-2">
     <div class="left-2">
-        <img src="Images/hero-image.png" alt="White male with phone">
+        <img src="assets/image-jeremy-large.png" alt="White male with phone">
     </div>
 
     <div class="small-line">
-        <img src="Images/small line.png" alt="Small curved line">
+        <img src="assets/pattern-curved-line-2.svg" alt="Small curved line">
     </div>
 
     <div class="blur">
-        <img src="Images/pattern-blur-icon.svg" alt="Blur behind hero">
+        <img src="assets/pattern-blur.svg" alt="Blur behind hero">
     </div>
 
     <div class="right-2">
@@ -81,27 +80,31 @@
 <section>
     <div class="footer-info">
     <div class="left-3">
-        <img src="Images/suite-icon.svg" alt="suite icon">
+        <img src="assets/logo.svg" alt="suite icon">
     </div>
 
     <footer>Copyright - Suite</footer>
 
     <div class="right-3">
-        <img id="facebook" src="Images/Facebook-icon.svg" alt="Facebook-icon">
-        <img id="twitter" src="Images/Twitter-icon.svg" alt="Twitter-icon">
-        <img id="instagram" src="Images/instagram-icon.svg" alt="instagram-icon">
+        <img id="facebook" src="assets/icon-facebook.svg" alt="Facebook-icon">
+        <img id="twitter" src="assets/icon-twitter.svg" alt="Twitter-icon">
+        <img id="instagram" src="assets/icon-instagram.svg" alt="instagram-icon">
     </div>
     </div>
 </section>
-
 </div>
 
 <!-- for mobile images -->
-<picture>
-    <source srcset="image-hero-landscape.png" media="(min-width: 600px)" />
-    <img src="Images/image-hero-landscape.png" alt="iphone-gradient" />
+<picture class="mobile">
+    <source srcset="hero-landscape.png" media="(min-width: 600px)" />
+    <img src="assets/image-hero-landscape.png" alt="iphone-gradient" />
+</picture>
+
+  <!-- for tablet images -->
+  <picture class="tablet">
+    <source srcset="hero-tablet.png" media="(min-width: 1024px)" />
+    <img src="assets/image-hero-tablet.png" alt="iphone-tablet" />
   </picture>
   
-
 </body>
 </html>
